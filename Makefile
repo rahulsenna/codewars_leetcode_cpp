@@ -1,5 +1,5 @@
 CC = g++
-CFLAGS = -std=c++17 -Wall -fdiagnostics-color=always -g 
+CFLAGS = -g -include bits/stdc++.h -std=c++17 -Wall -fdiagnostics-color=always
 
 # Name of the executable
 EXECUTABLE = main

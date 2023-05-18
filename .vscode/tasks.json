@@ -10,6 +10,8 @@
                 "-fdiagnostics-color=always",
                 "-g",
                 "${file}",
+                "-include",
+                "bits/stdc++.h",
                 "-o",
                 "${workspaceFolder}/bin/${fileBasenameNoExtension}"
             ],
